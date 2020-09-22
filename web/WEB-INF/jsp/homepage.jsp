@@ -31,7 +31,7 @@
 <body>
 <!-- 顶部开始 -->
 <div class="container">
-    <div class="logo"><a href="">宿舍管理系统</a></div>
+    <div class="logo"><a href="">工程测量数据管理系统</a></div>
     <div class="left_open">
         <i title="展开左侧栏" class="iconfont">&#xe699;</i>
     </div>
@@ -66,7 +66,7 @@
             <li>
                 <a href="javascript:;">
                     <i class="iconfont">&#xe6b8;</i>
-                    <cite>学生管理</cite>
+                    <cite>GPS</cite>
                     <i class="iconfont nav_right">&#xe697;</i>
                 </a>
                 <ul class="sub-menu">
@@ -74,7 +74,7 @@
                         <a _href="/findStudent">
                             <%--点击在右侧出现动态的Tab--%>
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>学生信息</cite>
+                            <cite>cp0</cite>
 
                         </a>
                     </li >
@@ -85,7 +85,7 @@
             <li>
                 <a href="javascript:;">
                     <i class="iconfont">&#xe723;</i>
-                    <cite>班级管理</cite>
+                    <cite>水准网</cite>
                     <i class="iconfont nav_right">&#xe697;</i>
                 </a>
                 <ul class="sub-menu">
@@ -93,7 +93,7 @@
                         <a _href="/findClass">
                             <%--点击在右侧出现动态的Tab--%>
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>班级列表</cite>
+                            <cite>水准网</cite>
                         </a>
                     </li >
 
@@ -101,7 +101,7 @@
                         <a _href="/findClassStudent">
                             <%--点击在右侧出现动态的Tab--%>
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>班级学生</cite>
+                            <cite>经纬网</cite>
                         </a>
                     </li >
                 </ul>
@@ -111,7 +111,7 @@
             <li>
                 <a href="javascript:;">
                     <i class="iconfont">&#59095;</i>
-                    <cite>宿舍管理</cite>
+                    <cite>电子水准仪</cite>
                     <i class="iconfont nav_right">&#xe697;</i>
                 </a>
                 <ul class="sub-menu">
@@ -119,7 +119,7 @@
                         <a _href="/findDormitory">
                             <%--点击在右侧出现动态的Tab--%>
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>宿舍列表</cite>
+                            <cite>水准仪数据</cite>
                         </a>
                     </li >
                 </ul>
@@ -129,7 +129,7 @@
                         <a _href="/findDormitoryStudent">
                             <%--点击在右侧出现动态的Tab--%>
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>人员信息</cite>
+                            <cite>经纬仪</cite>
                         </a>
                     </li >
                 </ul>
@@ -139,7 +139,7 @@
                         <a _href="/findDormRepair">
                             <%--点击在右侧出现动态的Tab--%>
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>维修登记</cite>
+                            <cite>cp2</cite>
                         </a>
                     </li >
                 </ul>
@@ -195,7 +195,7 @@
             <li>
                 <a href="javascript:;">
                     <i class="iconfont">&#xe726;</i>
-                    <cite>管理员管理</cite>
+                    <cite>管理员</cite>
                     <i class="iconfont nav_right">&#xe697;</i>
                 </a>
                 <ul class="sub-menu">
@@ -225,7 +225,7 @@
         </ul>
         <div class="layui-tab-content" >
             <div class="layui-tab-item layui-show o_div" >
-                <span class="o_span">管理员 ${sessionScope.ad.a_name} ，欢迎来到宿舍管理系统！</span>
+                <span class="o_span">管理员 ${sessionScope.ad.a_name},欢迎来到工程测量数据管理系统！</span>
                 <div class="layui-col-md6" style="padding: 30px;left: 60px;background-color: #F2F2F2;">
                     <div class="layui-card">
                         <div class="layui-card-header">个人信息
@@ -251,13 +251,11 @@
 </div>
 
 <div class="page-content-bg"></div>
-<!-- 右侧主体结束 -->
-<!-- 中部结束 -->
-<!-- 底部开始 -->
+
 <div class="footer">
     <div class="copyright">Copyright ©2019-2020 版权所有        个人博客: www.bloglife.top</div>
 </div>
-<!-- 底部结束 -->
+
 
 <script>
 
