@@ -66,7 +66,7 @@
             <li>
                 <a href="javascript:;">
                     <i class="iconfont">&#xe6b8;</i>
-                    <cite>GPS</cite>
+                    <cite>电子水准仪</cite>
                     <i class="iconfont nav_right">&#xe697;</i>
                 </a>
                 <ul class="sub-menu">
@@ -74,7 +74,7 @@
                         <a _href="/findStudent">
                             <%--点击在右侧出现动态的Tab--%>
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>cp0</cite>
+                            <cite>电子水准仪</cite>
 
                         </a>
                     </li >
@@ -85,7 +85,7 @@
             <li>
                 <a href="javascript:;">
                     <i class="iconfont">&#xe723;</i>
-                    <cite>水准网</cite>
+                    <cite>全站仪</cite>
                     <i class="iconfont nav_right">&#xe697;</i>
                 </a>
                 <ul class="sub-menu">
@@ -93,7 +93,7 @@
                         <a _href="/findClass">
                             <%--点击在右侧出现动态的Tab--%>
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>水准网</cite>
+                            <cite>CP3</cite>
                         </a>
                     </li >
 
@@ -101,7 +101,7 @@
                         <a _href="/findClassStudent">
                             <%--点击在右侧出现动态的Tab--%>
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>经纬网</cite>
+                            <cite>动态CP2</cite>
                         </a>
                     </li >
                 </ul>
@@ -111,7 +111,7 @@
             <li>
                 <a href="javascript:;">
                     <i class="iconfont">&#59095;</i>
-                    <cite>电子水准仪</cite>
+                    <cite>GPS数据</cite>
                     <i class="iconfont nav_right">&#xe697;</i>
                 </a>
                 <ul class="sub-menu">
@@ -119,7 +119,7 @@
                         <a _href="/findDormitory">
                             <%--点击在右侧出现动态的Tab--%>
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>水准仪数据</cite>
+                            <cite>CP0</cite>
                         </a>
                     </li >
                 </ul>
@@ -129,7 +129,7 @@
                         <a _href="/findDormitoryStudent">
                             <%--点击在右侧出现动态的Tab--%>
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>经纬仪</cite>
+                            <cite>CP1</cite>
                         </a>
                     </li >
                 </ul>
@@ -149,7 +149,7 @@
             <li>
                 <a href="javascript:;">
                     <i class="iconfont">&#59042;</i>
-                    <cite>卫生管理</cite>
+                    <cite>线路水准基准网</cite>
                     <i class="iconfont nav_right">&#xe697;</i>
                 </a>
 
@@ -158,7 +158,7 @@
                         <a _href="/findDormClean">
                             <%--点击在右侧出现动态的Tab--%>
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>宿舍卫生</cite>
+                            <cite>线路水准基准网</cite>
                         </a>
                     </li >
                 </ul>
@@ -168,7 +168,7 @@
                         <a _href="/findStudentClean">
                             <%--点击在右侧出现动态的Tab--%>
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>学生卫生</cite>
+                            <cite>...</cite>
                         </a>
                     </li >
                 </ul>
@@ -178,7 +178,7 @@
             <li>
                 <a href="javascript:;">
                     <i class="layui-icon">&#xe613;</i>
-                    <cite>访客管理</cite>
+                    <cite>...</cite>
                     <i class="iconfont nav_right">&#xe697;</i>
                 </a>
                 <ul class="sub-menu">
@@ -186,7 +186,7 @@
                         <a _href="/findVisitor">
                             <%--点击在右侧出现动态的Tab--%>
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>访客列表</cite>
+                            <cite>...</cite>
                         </a>
                     </li >
                 </ul>
@@ -253,7 +253,7 @@
 <div class="page-content-bg"></div>
 
 <div class="footer">
-    <div class="copyright">Copyright ©2019-2020 版权所有        个人博客: www.bloglife.top</div>
+    <div class="copyright">Copyright ©2019-2020 - ScaleLab - 版权所有     </div>
 </div>
 
 

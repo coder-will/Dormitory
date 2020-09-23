@@ -20,7 +20,7 @@
         <input type="hidden" value="${sessionScope.s.s_id}" name="s_id" id="s_id"/>
         <div class="layui-form-item">
             <label for="s_studentid" class="layui-form-label">
-                <span class="f_sp">学号</span>
+                <span class="f_sp">手机号码</span>
             </label>
             <div class="layui-input-inline">
                 <input type="text" id="s_studentid" name="s_studentid"
@@ -30,7 +30,7 @@
 
         <div class="layui-form-item">
             <label for="s_name" class="layui-form-label">
-                <span class="f_sp">姓名</span>
+                <span class="f_sp">测量人员</span>
             </label>
             <div class="layui-input-inline">
                 <input type="text" id="s_name" name="s_name"
@@ -50,7 +50,7 @@
 
         <div class="layui-form-item">
             <label for="s_age" class="layui-form-label">
-                <span class="f_sp">年龄</span>
+                <span class="f_sp">测站数</span>
             </label>
             <div class="layui-input-inline">
                 <input type="text" id="s_age" name="s_age"
@@ -60,7 +60,7 @@
 
         <div class="layui-form-item">
             <label for="s_phone" class="layui-form-label">
-                <span class="f_sp">电话</span>
+                <span class="f_sp">CP3点位信息</span>
             </label>
             <div class="layui-input-inline">
                 <input type="text" id="s_phone" name="s_phone"
@@ -70,7 +70,7 @@
 
         <div class="layui-form-item">
             <label for="s_classid" class="layui-form-label">
-                <span class="">*</span>班级编号
+                <span class="">*</span>CP3高程信息
             </label>
             <div class="layui-input-inline">
                 <input type="text" id="s_classid" name="s_classid"
@@ -80,7 +80,7 @@
 
         <div class="layui-form-item">
             <label for="s_classid" class="layui-form-label">
-                <span class="">*</span>班级名
+                <span class="">*</span>CP3特殊控制点位
             </label>
             <div class="layui-input-inline">
                 <input type="text" id="s_classname" name="s_classname"
@@ -90,7 +90,7 @@
 
         <div class="layui-form-item">
             <label for="s_dormitoryid" class="layui-form-label">
-                <span class="">*</span>寝室编号
+                <span class="">*</span>水平角
             </label>
             <div class="layui-input-inline">
                 <input type="text" id="s_dormitoryid" name="s_dormitoryid"

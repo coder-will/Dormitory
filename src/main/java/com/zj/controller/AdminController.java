@@ -13,6 +13,9 @@ import javax.servlet.ServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.List;
 
+/**
+ * 管理员Controller层
+ */
 @Controller
 public class AdminController {
 

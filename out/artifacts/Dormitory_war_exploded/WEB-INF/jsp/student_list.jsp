@@ -32,7 +32,7 @@
 <div class="x-nav">
       <span class="layui-breadcrumb">
         <a href="">首页</a>
-        <a href="/findStudent">学生信息</a>
+        <a href="/findStudent">电子水准仪测量数据</a>
       </span>
     <a class="layui-btn layui-btn-small" style="line-height:1.6em;margin-top:3px;float:right" href="/findStudent" title="刷新">
         <i class="layui-icon" style="line-height:30px">ဂ</i></a>
@@ -40,14 +40,14 @@
 <div class="x-body">
     <div class="layui-row">
         <form class="layui-form layui-col-md12 x-so" action="/findStudent" >
-            <input class="layui-input" placeholder="请输入姓名" name="s_name" id="s_name">
-            <input class="layui-input" placeholder="请输入学号" name="s_studentid" id="s_studentid">
-            <input class="layui-input" placeholder="请输入班级编号" name="s_classid" id="s_classid">
-            <input class="layui-input" placeholder="请输入班级名" name="s_classname" id="s_classname">
+<%--            <input class="layui-input" placeholder="请输入姓名" name="s_name" id="s_name">--%>
+<%--            <input class="layui-input" placeholder="请输入学号" name="s_studentid" id="s_studentid">--%>
+<%--            <input class="layui-input" placeholder="请输入班级编号" name="s_classid" id="s_classid">--%>
+<%--            <input class="layui-input" placeholder="请输入班级名" name="s_classname" id="s_classname">--%>
 
             <input class="layui-input" type="hidden" name="pageIndex" value="1">
             <input class="layui-input" type="hidden" name="pageSize" value="3">
-            <button class="layui-btn"  lay-submit="" lay-filter="search"><i class="layui-icon">&#xe615;</i></button>
+<%--            <button class="layui-btn"  lay-submit="" lay-filter="search"><i class="layui-icon">&#xe615;</i></button>--%>
         </form>
     </div>
     <xblock>
@@ -61,16 +61,16 @@
         <div class="layui-col-md10">
             <form class="layui-form" id="addEmployeeForm">
                 <div class="layui-form-item">
-                    <label class="layui-form-label">学号：</label>
+                    <label class="layui-form-label">手机号码：</label>
                     <div class="layui-input-block">
-                        <input type="text" lay-verify="required" name="s_studentid"   class="layui-input" placeholder="请输入学号">
+                        <input type="text" lay-verify="required" name="s_studentid"   class="layui-input" placeholder="请输入手机号码">
                     </div>
                 </div>
 
                 <div class="layui-form-item">
-                    <label class="layui-form-label">姓名：</label>
+                    <label class="layui-form-label">测量人员：</label>
                     <div class="layui-input-block">
-                        <input type="text" lay-verify="required" name="s_name"  class="layui-input" placeholder="请输入姓名">
+                        <input type="text" lay-verify="required" name="s_name"  class="layui-input" placeholder="请输入测量人员姓名">
                     </div>
                 </div>
 
@@ -84,37 +84,37 @@
                 </div>
 
                 <div class="layui-form-item">
-                    <label class="layui-form-label">年龄：</label>
+                    <label class="layui-form-label">测站数：</label>
                     <div class="layui-input-block">
-                        <input type="text" name="s_age" class="layui-input" i placeholder="请输入年龄">
+                        <input type="text" name="s_age" class="layui-input" i placeholder="请输入测站数">
                     </div>
                 </div>
 
                 <div class="layui-form-item">
-                    <label class="layui-form-label">电话：</label>
+                    <label class="layui-form-label">CP3点位信息：</label>
                     <div class="layui-input-block">
-                        <input type="text"  name="s_phone"  class="layui-input" placeholder="请输入电话">
+                        <input type="text"  name="s_phone"  class="layui-input" placeholder="请输入CP3点位信息">
                     </div>
                 </div>
 
                 <div class="layui-form-item">
-                    <label class="layui-form-label">班级编号：</label>
+                    <label class="layui-form-label">CP3高程信息：</label>
                     <div class="layui-input-block">
-                        <input type="text" name="s_classid" class="layui-input" placeholder="请输入班级编号">
+                        <input type="text" name="s_classid" class="layui-input" placeholder="请输入CP3高程信息">
                     </div>
                 </div>
 
                 <div class="layui-form-item">
-                    <label class="layui-form-label">班级名：</label>
+                    <label class="layui-form-label">CP3特殊控制点位：</label>
                     <div class="layui-input-block">
-                        <input type="text" name="s_classname" class="layui-input" placeholder="请输入班级名">
+                        <input type="text" name="s_classname" class="layui-input" placeholder="请输入CP3特殊控制点位">
                     </div>
                 </div>
 
                 <div class="layui-form-item">
-                    <label class="layui-form-label">寝室编号：</label>
+                    <label class="layui-form-label">水平角：</label>
                     <div class="layui-input-block">
-                        <input type="text" name="s_dormitoryid"  class="layui-input" placeholder="请输入寝室编号">
+                        <input type="text" name="s_dormitoryid"  class="layui-input" placeholder="请输入水平角">
                     </div>
                 </div>
 
@@ -137,16 +137,16 @@
             <form class="layui-form" id="addUpdatForm" >
                 <input value="${sessionScope.sid}" type="text"  name="s_id" id="edit_id"/>
                 <div class="layui-form-item">
-                    <label class="layui-form-label">学号：</label>
+                    <label class="layui-form-label">手机号码：</label>
                     <div class="layui-input-block">
-                        <input type="text"  name="s_studentid" id="edit_studentid"  value=""  class="layui-input" placeholder="请输入学号">
+                        <input type="text"  name="s_studentid" id="edit_studentid"  value=""  class="layui-input" placeholder="请输入手机号码">
                     </div>
                 </div>
 
                 <div class="layui-form-item">
-                    <label class="layui-form-label">姓名：</label>
+                    <label class="layui-form-label">测量人员信息：</label>
                     <div class="layui-input-block">
-                        <input type="text"  name="s_name" id="edit_names"  value="" class="layui-input" placeholder="请输入姓名">
+                        <input type="text"  name="s_name" id="edit_names"  value="" class="layui-input" placeholder="请输入测量人员信息">
                     </div>
                 </div>
 
@@ -160,37 +160,37 @@
                 </div>
 
                 <div class="layui-form-item">
-                    <label class="layui-form-label">年龄：</label>
+                    <label class="layui-form-label">测站数：</label>
                     <div class="layui-input-block">
-                        <input type="text" name="s_age" class="layui-input" id="edit_age" value="" placeholder="请输入年龄">
+                        <input type="text" name="s_age" class="layui-input" id="edit_age" value="" placeholder="请输入测站数">
                     </div>
                 </div>
 
                 <div class="layui-form-item">
-                    <label class="layui-form-label">电话：</label>
+                    <label class="layui-form-label">CP3点位信息：</label>
                     <div class="layui-input-block">
-                        <input type="text"  name="s_phone" id="edit_phone" value="" class="layui-input" placeholder="请输入电话">
+                        <input type="text"  name="s_phone" id="edit_phone" value="" class="layui-input" placeholder="请输入CP3点位信息">
                     </div>
                 </div>
 
                 <div class="layui-form-item">
-                    <label class="layui-form-label">班级编号：</label>
+                    <label class="layui-form-label">CP3高程信息：</label>
                     <div class="layui-input-block">
-                        <input type="text" name="s_classid" id="edit_classids" value="" class="layui-input" placeholder="请输入班级编号">
+                        <input type="text" name="s_classid" id="edit_classids" value="" class="layui-input" placeholder="请输入CP3高程信息">
                     </div>
                 </div>
 
                 <div class="layui-form-item">
-                    <label class="layui-form-label">班级名：</label>
+                    <label class="layui-form-label">CP3特殊控制点位：</label>
                     <div class="layui-input-block">
-                        <input type="text" name="s_classname" id="edit_classname" value="" class="layui-input" placeholder="请输入班级名">
+                        <input type="text" name="s_classname" id="edit_classname" value="" class="layui-input" placeholder="请输入CP3特殊控制点位">
                     </div>
                 </div>
 
                 <div class="layui-form-item">
-                    <label class="layui-form-label">宿舍编号：</label>
+                    <label class="layui-form-label">水平角：</label>
                     <div class="layui-input-block">
-                        <input type="text" name="s_dormitoryid"  id="edit_dormitoryids" value="" class="layui-input" placeholder="请输入宿舍编号">
+                        <input type="text" name="s_dormitoryid"  id="edit_dormitoryids" value="" class="layui-input" placeholder="请输入水平角">
                     </div>
                 </div>
 
@@ -213,14 +213,14 @@
                 <%--<div class="layui-unselect header layui-form-checkbox" lay-skin="primary"><i class="layui-icon">&#xe605;</i></div>--%>
             <%--</th>--%>
             <th>ID</th>
-            <th>学号</th>
-            <th>姓名</th>
+            <th>手机号码</th>
+            <th>测量人员信息</th>
             <th>性别</th>
-            <th>年龄</th>
-            <th>电话</th>
-            <th>班级编号</th>
-            <th>班级名</th>
-            <th>寝室编号</th>
+            <th>测站数</th>
+            <th>CP3点位信息</th>
+            <th>CP3高程信息</th>
+            <th>CP3特殊控制点位</th>
+            <th>水平角</th>
             <th>操作</th>
         </thead>
         <tbody>
@@ -316,7 +316,7 @@
                     // 3. 执行导出函数，系统会弹出弹框
                     excel.exportExcel({
                         sheet1: dt
-                    }, '学生数据.xlsx', 'xlsx', {
+                    }, '电子水准仪数据信息.xlsx', 'xlsx', {
                         extend: {
                             '!cols': colConf
                         }
@@ -339,7 +339,7 @@
         $("#addStudnetBtn").click(function () {
             layer.open({
                 type:1,
-                title:"添加学生",
+                title:"添加电子水准仪测量数据",
                 skin:"myclass",
                 area:["50%"],
                 anim:2,
